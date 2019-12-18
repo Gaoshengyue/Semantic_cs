@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 主目录下，直接运行命令
 
 ```
-uvicorn main:my_app --reload --port 8091 --host 0.0.0.0
+uvicorn main:app --reload --port 8091 --host 0.0.0.0
 ```
 
 #### 接口文档及测试用例
