@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for dir in result %}
+<div style="border-style:solid;">
+<h2>{{dir.name}}</h2>
+{% for file in dir.child %}
+<div><a href='http://172.18.130.143:8057/static/{{file.name}}'>{{file.name}}</a></div>
+{% endfor %}
+    </div>
+{% endfor %}
+</body>
+</html>
