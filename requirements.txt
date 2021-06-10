@@ -3,4 +3,4 @@ starlette==0.12.9
 gensim==3.8.1
 tqdm==4.40.2
 jieba==0.39
-fastapi==0.45.0
+fastapi==0.65.2
